@@ -7,12 +7,14 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-        Scanner scanne = new Scanner(System.in);
-        
-        int N = scanne.nextInt();
-        
-        if (N >= 15) System.out.println("Yes");
-        
-        else System.out.println("No");
+		Scanner day = new Scanner(System.in);
+		int N = day.nextInt();
+		if (N == 15){
+		    System.out.println("Yes");
+		}
+		else{
+		    System.out.println("No");
+		}
+
 	}
 }
