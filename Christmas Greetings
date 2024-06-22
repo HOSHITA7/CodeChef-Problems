@@ -7,12 +7,16 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-        Scanner scanne = new Scanner(System.in);
+        Scanner christ = new Scanner(System.in);
+        int X = christ.nextInt();
+        if(X == 25) {
+            System.out.println("Christmas");
+        }
+        else {
+            System.out.println("Ordinary");
+        }
         
-        int n = scanne.nextInt();
-        
-        if (n == 25)  System.out.println("CHRISTMAS");
-        
-        else  System.out.println("ORDINARY");
+
+
 	}
 }
