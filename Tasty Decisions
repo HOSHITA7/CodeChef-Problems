@@ -1,0 +1,32 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t--> 0) {
+            
+            int x = scanne.nextInt();
+            
+            int y = scanne.nextInt();
+            
+            int res = 2 * x;
+            
+            int ans = 5 * y;
+            
+            if (res > ans)  System.out.println("Chocolate");
+            
+            else if (res == ans)  System.out.println("Either");
+            
+            else  System.out.println("Candy");
+        }
+	}
+}
