@@ -1,0 +1,23 @@
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            int n = scanne.nextInt();
+            
+            if (n >= 7)  System.out.println("HEAVY");
+            
+            else if (n >= 3 && n < 7)  System.out.println("MODERATE");
+            
+            else  System.out.println("LIGHT");
+            
+        }
+	}
+}
