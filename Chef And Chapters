@@ -1,0 +1,27 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            int C = scanne.nextInt();
+            
+            int U = scanne.nextInt();
+            
+            int S = scanne.nextInt();
+            
+            int R = C * U * S;
+            
+            System.out.println(R);
+        }
+	}
+}
