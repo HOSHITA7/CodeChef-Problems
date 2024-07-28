@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int m = scanne.nextInt();
+        
+        int a = scanne.nextInt();
+        
+        int o = scanne.nextInt();
+        
+        int res = a + o;
+        
+        if (m >= res)  System.out.println("Yes");
+        
+        else  System.out.println("No");
+	}
+}
