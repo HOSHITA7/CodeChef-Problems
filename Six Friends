@@ -1,0 +1,30 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t -- > 0) {
+            
+            int x = scanne.nextInt();
+            
+            int y = scanne.nextInt();
+            
+            int t1 = 3 * x;
+            
+            int t2 = 2 * y;
+            
+            int c = Math.min(t1, t2);
+            
+            System.out.println(c);
+        }
+	}
+}
