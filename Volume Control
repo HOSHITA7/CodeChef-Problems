@@ -1,0 +1,32 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            int x = scanne.nextInt();
+            
+            int y = scanne.nextInt();
+            
+            if ( x > y) {
+                
+                int r1 = x - y;  System.out.println(r1);
+            }
+            
+            else {
+                
+                int r2 = y - x;  System.out.println(r2);
+            }
+        }
+	}
+}
