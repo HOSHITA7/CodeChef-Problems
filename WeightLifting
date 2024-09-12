@@ -1,0 +1,34 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner scanne = new Scanner(System.in);
+        
+        int a1 = scanne.nextInt();
+        
+        int a2 =scanne.nextInt();
+        
+        int b1 = scanne.nextInt();
+        
+        int b2 = scanne.nextInt();
+        
+        int c1 = scanne.nextInt();
+        
+        int c2 = scanne.nextInt();
+        
+        int res1 = Math.max(a1, a2);
+        
+        int res2 = Math.max(b1, b2);
+        
+        int res3 = Math.max(c1, c2);
+        
+        int ans = res1 + res2 + res3;
+        
+        System.out.println(ans);
+	}
+}
