@@ -1,0 +1,29 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            int S = scanne.nextInt();
+            
+            int T = scanne.nextInt();
+            
+            int E = scanne.nextInt();
+            
+            if (S > T && S > E) System.out.println("Setter");
+            
+            else if (T > S && T > E)  System.out.println("Tester");
+            
+            else  System.out.println("Editorialist");
+        }
+	}
+}
