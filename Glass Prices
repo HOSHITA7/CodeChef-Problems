@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int x = scanne.nextInt();
+        
+        int y = scanne.nextInt();
+        
+        int res = 2 * x;
+        
+        if (res >= y)  System.out.println("METAL");
+        
+        else   System.out.println("PLASTIC");
+	}
+}
