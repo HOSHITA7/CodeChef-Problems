@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int i = scanne.nextInt();
+        
+        int s = scanne.nextInt();
+        
+        if (i <= s)  System.out.println(i);
+        
+        else System.out.println(s);
+	}
+}
