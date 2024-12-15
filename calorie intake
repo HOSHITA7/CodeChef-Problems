@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int x = scanne.nextInt();
+        
+        int y = scanne.nextInt();
+        
+        int z = scanne.nextInt();
+        
+        int res = y * z;
+        
+        if (res <= x)  System.out.println(x - res);
+        
+        else System.out.println(-1);
+	}
+}
