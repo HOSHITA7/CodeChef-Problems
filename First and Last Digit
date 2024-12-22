@@ -1,0 +1,66 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            int n = scanne.nextInt();
+            
+            int l =  n % 10;
+            
+            int f = n;
+            
+            while (f >= 10) {
+            
+               f /= 10;
+            }
+            
+            int sum = f + l;
+            
+            System.out.println(sum);
+        }
+	}
+}
+
+\\
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            String n = scanne.next();
+            
+            int f = Character.getNumericValue(n.charAt(0));
+            
+            int l = Character.getNumericValue(n.charAt(n.length() - 1));
+            
+            int sum = f + l;
+            
+            System.out.println(sum);
+        }
+	}
+}
+
+//
