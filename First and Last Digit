@@ -64,3 +64,32 @@ class Codechef
 }
 
 //
+
+*//
+
+import java.util.Scanner;
+
+class Main{
+    
+    public static void main(String[] args) {
+        
+        Scanner scanne = new Scanner(System.in);
+
+        int t = scanne.nextInt();
+
+        while (t -- > 0) {
+            
+            int N = scanne.nextInt();
+
+            int l = N % 10;
+
+            int f = (int) (N / Math.pow(10, (int) Math.log10(N)));
+
+            int sum = f + l;
+
+            System.out.println(sum);
+        }
+    }
+}
+
+*\\
