@@ -1,0 +1,64 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int p1 = scanne.nextInt();
+        
+        int p2 = scanne.nextInt();
+        
+        int p3 = scanne.nextInt();
+        
+        int p4 = scanne.nextInt();
+        
+        int c = 0;
+        
+        if (p1 >= 10) c++;
+        
+        if (p2 >= 10) c++;
+        
+        if (p3 >= 10) c++;
+        
+        if (p4 >= 10) c++;
+        
+        System.out.println(c);
+	}
+}
+
+*//
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int a[] = new int[4];
+        
+        for (int i = 0; i < 4; i++)  a[i] = scanne.nextInt();
+        
+        int c = 0;
+        
+        for (int i = 0; i < 4; i++) {
+            
+            if (a[i] >= 10) c++;
+        }
+        
+        System.out.println(c);
+	}
+}
+
+*\\
