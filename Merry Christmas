@@ -1,0 +1,104 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int x = scanne.nextInt();
+        
+        if (x >= 7)  System.out.println(3);
+        
+        else if (x > 2 && x < 7)  System.out.println(2);
+        
+        else System.out.println(1);
+	}
+}
+
+//
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int x = scanne.nextInt();
+        
+        int[] a = {1, 2, 4};
+        
+        int c = 0;
+        
+        int t = 0;
+        
+        for (int i : a) {
+            
+            if (t + i <= x) {
+                
+                t += i;
+                
+                c++;
+            }
+            
+            else break;
+        }
+        
+        System.out.println(c);
+	}
+}
+
+\\
+
+//
+
+import java.util.Scanner;
+
+public class ChristmasActivities {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();
+
+        int[] a = {1, 2, 4};
+
+        int c = getMaxActivities(x, a);
+
+        System.out.println(c);
+
+        sc.close();
+    }
+
+    private static int getMaxActivities(int x, int[] a) {
+
+        int c = 0;
+
+        int t = 0;
+
+        for (int i : a) {
+
+            if (t + i <= x) {
+
+                t += i;
+
+                c++;
+            } 
+             else break;
+        }
+
+        return c;
+    }
+}
+
+\\
