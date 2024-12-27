@@ -1,0 +1,67 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            int f = scanne.nextInt();
+            
+            int c = scanne.nextInt();
+            
+            int a = scanne.nextInt();
+            
+            int res = f + a;
+            
+            if (res <= c)  System.out.println("Yes");
+            
+            else if (f <= c && a == 0)  System.out.println("Yes");
+            
+            else  System.out.println("No");
+        }
+	}
+}
+
+//
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            int f = scanne.nextInt();
+            
+            int c = scanne.nextInt();
+            
+            int a = scanne.nextInt();
+            
+            int res = c - a;
+            
+            if (f <= res)  System.out.println("Yes");
+            
+            else  System.out.println("No");
+        }
+	}
+}
+
+\\
