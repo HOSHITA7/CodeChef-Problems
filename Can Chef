@@ -1,0 +1,56 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner scanne = new Scanner(System.in);
+        
+        int t = scanne.nextInt();
+        
+        while (t --> 0) {
+            
+            int x = scanne.nextInt();
+            
+            int y = scanne.nextInt();
+            
+            int td = 2 * y;
+            
+            int md = x * 15;
+            
+            if (md >= td)  System.out.println("YES");
+            
+            else  System.out.println("NO");
+        }
+	}
+}
+
+//
+
+import java.util.Scanner;
+
+public class CodeChef {
+
+    public static void main(String[] args) {
+
+        Scanner scanne = new Scanner(System.in);
+         
+            int t = scanne.nextInt();
+
+            while (t-- > 0) {
+                
+                int x = scanne.nextInt();
+
+                int y = scanne.nextInt();
+
+                System.out.println((x * 15 >= 2 * y) ? "YES" : "NO");
+            }
+        }
+    }
+}
+
+//
