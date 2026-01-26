@@ -1,0 +1,83 @@
+Why Ceiling Division?
+Pizzas must be ordered whole - you can't buy 1.5 pizzas. When total slices needed isn't evenly divisible by 8, you need one extra pizza.
+
+Mathematical Breakdown
+For ceiling(a/b) with integers: (a + b - 1) / b
+Here: a = totalSlices, b = 8, so (totalSlices + 8 - 1) / 8 = (totalSlices + 7) / 8
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner sc = new Scanner(System.in);
+        
+        int b = sc.nextInt();
+        
+        int g = sc.nextInt();
+        
+        int B = b + 1;
+        
+        int a1 = (4 * B) + (3 * g);
+        
+        int a2 = (a1 + 7) / 8;
+        
+       System.out.println(a2);
+	}
+}
+
+/////
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner sc = new Scanner(System.in);
+        
+        int b = sc.nextInt();
+        
+        int g = sc.nextInt();
+        
+        int a1 = ((4 * b) + (3 * g))/ 8 + 1;  ////   int a1 = (((4 * b) + (3 * g))/ 8) + 1;    braces are imp
+        
+       System.out.println(a1);
+	}
+}
+
+////
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner sc = new Scanner(System.in);
+        
+        int b = sc.nextInt();
+        
+        int g = sc.nextInt();
+        
+        int a1 = (4 * b) + (3 * g) + 4;
+        
+        int a2 = (int) Math.ceil((double) a1 / 8);
+        
+       System.out.println(a2);
+	}
+}
+
+
+////
